@@ -1,10 +1,7 @@
-# Metric Conversion Calculator
+# Classification of Diabetic Retinopathy
 
-Unit conversions are bugbears to many..!! As conversions are a crucial aspect of math and science, this calculator lends a helping hand by providing easy and convenient conversions between units.
-
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C Linux Build](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/c-cpp.yml) [![C windows Build](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/windows-build.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/windows-build.yml) | [![Cppcheck](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/cppcheck.yml) [![Valgrind](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/dynamic-code-quality.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/dynamic-code-quality.yml) [![CI-Coverage](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/coverage.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/coverage.yml) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/3fa34cb3d58e4748a8a745ce7b1e8490)](https://www.codacy.com/gh/Sanchana-2k/LTTS_C_MiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Sanchana-2k/LTTS_C_MiniProject&amp;utm_campaign=Badge_Grade) | [![Linux Unit Testing](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/unity.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/unity.yml) [![Windows unit testing](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/windows-unity.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/windows-unity.yml) | [![Git Inspector](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Sanchana-2k/LTTS_C_MiniProject/actions/workflows/gitinspector.yml)
+Let us first know what is Classification before we talk about how we classify the images and so on. To keep it simple Classification is basically grouping the objects by using the known Label information. So, we need to send Label information along with the data for the model to Classify. In this paper we classify Diabetic Retinopathy images with the help of Deeplearning models which takes images and label as input. We provide Diabetic Retinopathi image with label as input for the
+model and train it to Classify the Diabetic Retinopathy images. Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical con-dition in which damage occurs to the retina due to diabetes mellitus.Diabetic Retinopathy (DR) is the leading cause of blindness in the working-age group. 50million Indians sufering from diabetes, the prevalence of those with DR is es-timated between 18percent to 28percent.Regular eye examination among these vulnerable groups is necessary to diagnose DR at an early stage, when it can be treated with the best prognosis. Here we try to classify the DR images at early stages.
 
 
 ## Folder Structure
@@ -19,36 +16,25 @@ Folder             | Description
 
 SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256153` | S Sanchana  | Metric Conversion    | Nil     | Nil   |9   | YES    
-   
+
 
 ## Challenges Faced and How Was It Overcome
 
-1. Inputing char for int in while(1) loop lead to infinite loop -> got value as fgets
-2. Including files -> later resolved
+1. Class Imbalance
+2. less number of samples
+we overcome by using the image augmentation.
 
 ## Project Enhancements carried out
 Variable | Bug | Fix
 --- | --- | ----
-input_value | Character inputs was considered 0 | Indicated as invalid and user asked to re-enter
-input_value | Negative inputs were accepted by considering their absolute values | Indicating metric cannot be negative, user asked to re-enter
-choice_of_quantity, index_of_input, number_of_output_conversions, array_of_output_index[i] | fseek to flush stdin, so next variable does not take values from previous input was not working in linux | Buffer size increased to fit accidental extra values
-choice_of_quantity, index_of_input, number_of_output_conversions, array_of_output_index[i] | only 1st digit was considered for index, thus, accidental 123 input is considered index 1 | Fixed by prompting user to re-enter input within the range
+input_for Macular Edema | miss classification | model hyper tuning
+input_for Diabetic Retinopathy Grade  | miss classification | model hyper tuning
 
-### Miscellaneous
-* Inclusion of appropriate comments
-* YML for windows created
-* doxyfile generated
-* codacy badge included
+Integrating both these models into one model for testing
 
-## Learning Resources
-1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
-3. [git inspector](https://github.com/ejwa/gitinspector.git)
-4. [github workflow](https://docs.github.com/en/actions/learn-github-action)
+## Here are some related projects
 
-## Credits
+[IDRid](https://www.mdpi.com/2306-5729/3/3/25)
+[CANet: Cross-Disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading](https://github.com/xmengli999/CANet.)
 
-1. Reference requirements and architecture and test plan - [Manjari_AP](https://github.com/256152/Mini_Project_1_April_2021.git)
-2. Reference for High Level Requirements and Low Level Requirements Table - [arc-arnob](https://github.com/arc-arnob/LnT_Mini_Project.git)
 
