@@ -15,7 +15,7 @@
 
 ## Research
 * Indian Diabetic Retinopathy Image Dataset (IDRiD): A Database for Diabetic Retinopathy Screening Research by Prasanna Porwal  , Samiksha Pachade 1, Ravi Kamble 1, Manesh Kokare 1, Girish Deshmukh , Vivek Sahasrabuddhe  and Fabrice Meriaudeau in this paper the authors explained about ho they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
-![image](https://user-images.githubusercontent.com/48474653/128479973-55a47da4-bda9-477c-826a-8d85f4ed1ffa.png)
+
  
 
 * Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs by Varun Gulshan, PhD; Lily Peng,MD, PhD; Marc Coram, PhD; Martin C. Stumpe, PhD; DerekWu, BS; Arunachalam Narayanaswamy, PhD; Subhashini Venugopalan, MS; Kasumi Widner, MS; TomMadams, MEng; Jorge Cuadros, OD, PhD; Ramasamy Kim, OD, DNB; Rajiv Raman, MS, DNB; Philip C. Nelson, BS; Jessica L. Mega, MD, MPH; Dale R.Webster, PhD In this paper the audthors focused on applying deep learning to create an algorithm for automated detection of diabetic retinopathy and diabetic macular edema in retinal fundus photographs on eye PACs dataset.
@@ -35,7 +35,7 @@ Since the system uses only open source software, it is free of cost..!!
 Since we are using Deeplearning we dont explicity give any features for the model . we just pass the image(.png)
 
 ## Defining the System
-![Flow chart](1_Requirements/Final (1).png)
+![Flow chart](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Final%20(1).png)
 
 # 4W&#39;s and 1&#39;H
 
