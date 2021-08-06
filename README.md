@@ -3,7 +3,7 @@
 Let us first know what is Classification before we talk about how we classify the images and so on. To keep it simple Classification is basically grouping the objects by using the known Label information. So, we need to send Label information along with the data for the model to Classify. In this paper we classify Diabetic Retinopathy images with the help of Deeplearning models which takes images and label as input. We provide Diabetic Retinopathi image with label as input for the
 model and train it to Classify the Diabetic Retinopathy images. Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical con-dition in which damage occurs to the retina due to diabetes mellitus.Diabetic Retinopathy (DR) is the leading cause of blindness in the working-age group. 50million Indians sufering from diabetes, the prevalence of those with DR is es-timated between 18percent to 28percent.Regular eye examination among these vulnerable groups is necessary to diagnose DR at an early stage, when it can be treated with the best prognosis. Here we try to classify the DR images at early stages.
 
-
+![Diabetic Retinopathy](https://github.com/Deepak141/Sample_ltts/blob/main/picture%20(1).jpg)
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------
