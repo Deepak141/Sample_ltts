@@ -29,7 +29,7 @@ For Diabetic Retinopathy screening, drops placed in your eyes widen (dilate) you
 Using our method Computer-aided disease diagnosis in retinal image analysis could ease mass screening of the population with diabetes mellitus and help clinicians in utilizing their time more efficiently. 
 *TBD*
 
-### *Features vs Aging*
+### *Features vs Ageing*
 The pervious methods Used for Detecting Diabetic Retinopathy have achieved the Maximum Accuracy of 65.1% where as using our model we have achieved the accuracy of 69%.
 
 ## Defining the System
