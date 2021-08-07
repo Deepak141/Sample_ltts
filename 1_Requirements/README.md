@@ -1,17 +1,7 @@
 # Requirements
 
 ## Introduction
-* Need Dataset which consists of DR (IDRid dataset) 
-
-* Need Fastai 2.0
-
-* Need fastbook
-
-* One model to classify ME
-
-* One model to classify RG
-
-* One model which take ME and RG model and gives a single output
+Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical condition in which damage occurs to the retina due to diabetes mellitus.Diabetic Retinopathy (DR) is the leading cause of blindness in the working-age group. 50 million Indians sufering from diabetes, the prevalence of those with DR is estimated between 18percent to 28percent.Regular eye examination among these vulnerable groups is necessary to diagnose DR at an early stage, when it can be treated with the best prognosis.As show in the Figure, According to the GlobalData, it is predicted to have the increase in the DR cases to 17.8 million in 2029 .Diabetic Retinopathy is the most prevalent cause of avoidable vision impairment, mainly affecting the working-age population in the world. Recent research has given a better understanding of the requirement in clinical eye care practice to identify better and cheaper ways of identification, management, diagnosis and treatment of retinal disease. Currently, detecting DR is a time-consuming and manual process that requires a trained clinician to examine and evaluate digital color fundus photographs of the retina. Automated analysis of retinal color images has such benefits as increased efficiency and coverage of screening programs, reduced barriers to access, and early detection and treatment. In this project we use Deep Learning models to detect referable Diabetic Retinopathy.
 
 ## Research
 * Indian Diabetic Retinopathy Image Dataset (IDRiD): A Database for Diabetic Retinopathy Screening Research by Prasanna Porwal  , Samiksha Pachade 1, Ravi Kamble 1, Manesh Kokare 1, Girish Deshmukh , Vivek Sahasrabuddhe  and Fabrice Meriaudeau in this paper the authors explained about ho they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
