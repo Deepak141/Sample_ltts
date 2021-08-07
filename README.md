@@ -34,7 +34,7 @@ Integrating both these models into one model for testing
 
 ## Here are some related projects
 
-[IDRid](https://www.mdpi.com/2306-5729/3/3/25)
-[CANet: Cross-Disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading](https://github.com/xmengli999/CANet.)
+* [IDRid](https://www.mdpi.com/2306-5729/3/3/25)
+* [CANet: Cross-Disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading](https://github.com/xmengli999/CANet.)
 
 
