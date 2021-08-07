@@ -62,13 +62,20 @@ Pass the eye image to the testing model which gives the result of both ME and RG
 
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
-|ID_01|Classify DR |Implemented|
+|ID_01|Classify Mcular Edema |Implemented|
+|ID_02|Classify Retinopathy Grade |Implemented|
 
 
 
 ##  Low level Requirements:
 |      ID          |Description                          |  HLR_ID  |Status               |
 |----------------|-------------------------------|----------|-----------------------------|
-|SID_01|Classify ME|ID_01|Implemented|
-|SID_02|Classify RG|ID_01|Implemented|
+|SID_01|Classify lvl0|ID_01|Implemented|
+|SID_02|Classify lvl1|ID_01|Implemented|
+|SID_03|Classify lvl2|ID_01|Implemented|
+|SID_04|Classify lvl0|ID_02|Implemented|
+|SID_05|Classify lvl1|ID_02|Implemented|
+|SID_06|Classify lvl2|ID_02|Implemented|
+|SID_07|Classify lvl3|ID_02|Implemented|
+|SID_08|Classify lvl4|ID_02|Implemented|
 
