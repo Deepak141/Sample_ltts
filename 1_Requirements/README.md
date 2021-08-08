@@ -34,6 +34,7 @@ The pervious methods Used for Detecting Diabetic Retinopathy have achieved the M
 Our propsed method is to analysis could ease mass screening of the population with diabetes mellitus and help clinicians in utilizing their time more efficiently.
 
 # 4W and 1H
+
 ## Who
 
 This tool is a helping hand for Ophthalmologist in reducing their time for mass screening of the populations with DR.
@@ -54,7 +55,7 @@ Can be used in the hosplitals and labs for screening the Diabetic Retinopathy.
 
 Pass the eye image to the testing model which gives the result of both ME and RG
 
-# SWOT Analysis
+## SWOT Analysis
 ![swot](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Screenshot%20(375).png)
 
 ## Detail requirements
