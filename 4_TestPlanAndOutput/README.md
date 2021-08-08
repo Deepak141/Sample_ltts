@@ -13,14 +13,14 @@
 *   Is Models Present-Passing
 *   Retinopathy Grade classification function-Passing
 *   Macular edema classification function-Passing
-*   Loading Csv file - Passing
-*   Printing Accuracy - Passing
-*   Loading Retinopathy Grade Model - Passing
-*   Loading Macular Edema Model - Passing
-*   Loading Dataset - Passing
-*   Load Dataset to train Macular Edema - Passing 
-*   Load Dataset to train Retinopathy Grade - Passing
-*   Load pretrained model for Macular Edema - Passing
-*   Load pretrained model for Retinopathy Grade - Passing
-*   Saving Macular edema model - Passing
-*   Saving Retinopathy Grade - Passing
+*   Loading Csv file-Passing
+*   Printing Accuracy-Passing
+*   Loading Retinopathy Grade Model-Passing
+*   Loading Macular Edema Model-Passing
+*   Loading Dataset-Passing
+*   Load Dataset to train Macular Edema-Passing 
+*   Load Dataset to train Retinopathy Grade-Passing
+*   Load pretrained model for Macular Edema-Passing
+*   Load pretrained model for Retinopathy Grade-Passing
+*   Saving Macular edema model-Passing
+*   Saving Retinopathy Grade-Passing
