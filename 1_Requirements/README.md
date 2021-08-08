@@ -5,15 +5,13 @@ Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical cond
 ![Stats](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Stats%20(1).png)
 
 ## Research
-  *   Indian Diabetic Retinopathy Image Dataset (IDRiD): 
+   *   Indian Diabetic Retinopathy Image Dataset (IDRiD): 
    1  In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
    2  It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
    3  Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
    4  [IDRid Paper](https://www.mdpi.com/2306-5729/3/3/25)
 
- 
-
-  *   Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs :
+*   Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs :
   1  In this paper the audthors focused on applying deep learning to create an algorithm for automated detection of diabetic retinopathy and diabetic macular edema in retinal fundus photographs on eye PACs dataset.
   2  The EYEPACS dataset contains 9963 images and the Messidor-2 dataset contains 1748 images. They have achieved the sensitivity of 97 for EYEPACS-1 , 96.1 for Messidor-2 and they achieved the specificity of 93.4 for EYEPACS-1 , 93.9 for Messidor-2 datasets.
   3  [Development and Validation of a Deep Learning Algorithm ](https://doi.org/10.1001/jama.2016.17216)
