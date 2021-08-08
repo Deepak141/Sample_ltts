@@ -17,8 +17,8 @@ Folder             | Description
 SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 ## Challenges Faced and How Was It Overcome
-1.  Class Imbalance
-2.  Less number of samples
+1. Class Imbalance
+2. Less number of samples
 
 we overcome by using the image augmentation.
 
