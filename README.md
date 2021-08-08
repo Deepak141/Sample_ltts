@@ -17,8 +17,8 @@ Folder             | Description
 SF No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 ## Challenges Faced and How Was It Overcome
-1.  Class Imbalance
-2.  Less number of samples
+1. Class Imbalance
+2. Less number of samples
 
 we overcome by using the image augmentation.
 
@@ -31,5 +31,6 @@ input_for Diabetic Retinopathy Grade  | miss classification | model hyper tuning
 Integrating both these models into one model for testing
 
 ## Here are some related projects
-*  [IDRid](https://www.mdpi.com/2306-5729/3/3/25)
-*  [CANet: Cross-Disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading](https://github.com/xmengli999/CANet.)
+[IDRid](https://www.mdpi.com/2306-5729/3/3/25)
+
+[CANet: Cross-Disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading](https://github.com/xmengli999/CANet.)
