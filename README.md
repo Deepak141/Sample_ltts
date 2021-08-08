@@ -28,6 +28,8 @@ we overcome by using the image augmentation.
 ## Project Enhancements carried out
 Variable | Bug | Fix
 --- | --- | ----
+choosing pretrained model | miss classification | model hyper tuning
+Choosing the Learning rate | miss classification | model training and hyper tuning
 input_for Macular Edema | miss classification | model hyper tuning
 input_for Diabetic Retinopathy Grade  | miss classification | model hyper tuning
 
