@@ -5,7 +5,7 @@ Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical cond
 ![Stats](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Stats%20(1).png)
 
 ## Research
-   *   Indian Diabetic Retinopathy Image Dataset (IDRiD): 
+*   Indian Diabetic Retinopathy Image Dataset (IDRiD): 
    1  In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
    2  It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
    3  Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
@@ -14,9 +14,9 @@ Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical cond
 *   Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs :
   1  In this paper the audthors focused on applying deep learning to create an algorithm for automated detection of diabetic retinopathy and diabetic macular edema in retinal fundus photographs on eye PACs dataset.
   2  The EYEPACS dataset contains 9963 images and the Messidor-2 dataset contains 1748 images. They have achieved the sensitivity of 97 for EYEPACS-1 , 96.1 for Messidor-2 and they achieved the specificity of 93.4 for EYEPACS-1 , 93.9 for Messidor-2 datasets.
-  3  [Development and Validation of a Deep Learning Algorithm ](https://doi.org/10.1001/jama.2016.17216)
+  3[Development and Validation of a Deep Learning Algorithm ](https://doi.org/10.1001/jama.2016.17216)
 
-  *   CANet: Cross-disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading \citep{8892667}
+*   CANet: Cross-disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading \citep{8892667}
   1 Where they have used the IDRid dataset which consists of 413 training samples and 103 testing data ,In the IDRiD dataset, each image contains both DR and DME severity grading labels. DR grade is annotated into five classes according to the severity scale, and we perform 5 class classification for DR. 
   2 Diabetic Macular Edema(DME) is annotated based on the shortest distance d between the hard exudates location and the macula. The annotation criteria of DME grading is the same as that in the IDRiD dataset, and they have made use of the CANet and have achieved the joint accuracy of 65.1.only one or two have worked on the same topic in which they have worked on same dataset and have achieved the Accuracy of 65 which is the current highest who has achieved on this dataset for classifying both Diabetic Macular Edema and Diabetic Retinopathy Grade(DRG).
   3[DOI](10.1109/TMI.2019.2951844)
