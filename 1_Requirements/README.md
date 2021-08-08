@@ -33,7 +33,7 @@ The pervious methods Used for Detecting Diabetic Retinopathy have achieved the M
 ## Defining the System
 Our propsed method is to analysis could ease mass screening of the population with diabetes mellitus and help clinicians in utilizing their time more efficiently.
 
-# 4W and 1'H
+# 4W and 1H
 
 ## Who
 
@@ -55,19 +55,17 @@ Can be used in the hosplitals and labs for screening the Diabetic Retinopathy.
 
 Pass the eye image to the testing model which gives the result of both ME and RG
 
-
 # SWOT Analysis
 ![swot](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Screenshot%20(375).png)
 
 # Detail requirements
+
 ## High Level Requirements
 
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
 |ID_01|Classify Mcular Edema |Implemented|
 |ID_02|Classify Retinopathy Grade |Implemented|
-
-
 
 ##  Low level Requirements
 |      ID          |Description                          |  HLR_ID  |Status               |
@@ -80,4 +78,3 @@ Pass the eye image to the testing model which gives the result of both ME and RG
 |SID_06|Classify lvl2|ID_02|Implemented|
 |SID_07|Classify lvl3|ID_02|Implemented|
 |SID_08|Classify lvl4|ID_02|Implemented|
-
