@@ -6,22 +6,22 @@ Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical cond
 
 ## Research
 * Indian Diabetic Retinopathy Image Dataset (IDRiD): 
-   * In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
-   * It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
-   * Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
-   * [IDRid Paper](https://www.mdpi.com/2306-5729/3/3/25)
+   1 In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
+   2 It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
+   3 Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
+   4 [IDRid Paper](https://www.mdpi.com/2306-5729/3/3/25)
 
  
 
 * Development and Validation of a Deep Learning Algorithm for Detection of Diabetic Retinopathy in Retinal Fundus Photographs :
-  *  In this paper the audthors focused on applying deep learning to create an algorithm for automated detection of diabetic retinopathy and diabetic macular edema in retinal fundus photographs on eye PACs dataset.
-  *  The EYEPACS dataset contains 9963 images and the Messidor-2 dataset contains 1748 images. They have achieved the sensitivity of 97 for EYEPACS-1 , 96.1 for Messidor-2 and they achieved the specificity of 93.4 for EYEPACS-1 , 93.9 for Messidor-2 datasets.
-  *  [Development and Validation of a Deep Learning Algorithm ](https://doi.org/10.1001/jama.2016.17216)
+  1  In this paper the audthors focused on applying deep learning to create an algorithm for automated detection of diabetic retinopathy and diabetic macular edema in retinal fundus photographs on eye PACs dataset.
+  2  The EYEPACS dataset contains 9963 images and the Messidor-2 dataset contains 1748 images. They have achieved the sensitivity of 97 for EYEPACS-1 , 96.1 for Messidor-2 and they achieved the specificity of 93.4 for EYEPACS-1 , 93.9 for Messidor-2 datasets.
+  3  [Development and Validation of a Deep Learning Algorithm ](https://doi.org/10.1001/jama.2016.17216)
 
 * CANet: Cross-disease Attention Network for Joint Diabetic Retinopathy and Diabetic Macular Edema Grading \citep{8892667}
-  * Where they have used the IDRid dataset which consists of 413 training samples and 103 testing data ,In the IDRiD dataset, each image contains both DR and DME severity grading labels. DR grade is annotated into five classes according to the severity scale, and we perform 5 class classification for DR. 
-  * Diabetic Macular Edema(DME) is annotated based on the shortest distance d between the hard exudates location and the macula. The annotation criteria of DME grading is the same as that in the IDRiD dataset, and they have made use of the CANet and have achieved the joint accuracy of 65.1.only one or two have worked on the same topic in which they have worked on same dataset and have achieved the Accuracy of 65 which is the current highest who has achieved on this dataset for classifying both Diabetic Macular Edema and Diabetic Retinopathy Grade(DRG).
-  * [DOI](10.1109/TMI.2019.2951844)
+  1 Where they have used the IDRid dataset which consists of 413 training samples and 103 testing data ,In the IDRiD dataset, each image contains both DR and DME severity grading labels. DR grade is annotated into five classes according to the severity scale, and we perform 5 class classification for DR. 
+  2 Diabetic Macular Edema(DME) is annotated based on the shortest distance d between the hard exudates location and the macula. The annotation criteria of DME grading is the same as that in the IDRiD dataset, and they have made use of the CANet and have achieved the joint accuracy of 65.1.only one or two have worked on the same topic in which they have worked on same dataset and have achieved the Accuracy of 65 which is the current highest who has achieved on this dataset for classifying both Diabetic Macular Edema and Diabetic Retinopathy Grade(DRG).
+  3 [DOI](10.1109/TMI.2019.2951844)
 
 ## Cost and Features
 ### *Cost vs Features*
@@ -35,25 +35,25 @@ The pervious methods Used for Detecting Diabetic Retinopathy have achieved the M
 ## Defining the System
 Our propsed method is to analysis could ease mass screening of the population with diabetes mellitus and help clinicians in utilizing their time more efficiently.
 
-# 4W&#39;s and 1&#39;H
+# 4W's and 1'H
 
-## Who:
+## Who
 
 This tool is a helping hand for Ophthalmologist in reducing their time for mass screening of the populations with DR.
 
-## What:
+## What
 
 Gives the Macular Edema(ME) and Retinopathy Grade(RG) value for an given Eye Image
 
-## When:
+## When
 
 Since there is no software that is currently used to detect this Disease we can use there for automatic detection
 
-## Where:
+## Where
 
 Can be used in the hosplitals and labs for screening the Diabetic Retinopathy.
 
-## How:
+## How
 
 Pass the eye image to the testing model which gives the result of both ME and RG
 
@@ -63,7 +63,7 @@ Pass the eye image to the testing model which gives the result of both ME and RG
 ![swot](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Screenshot%20(375).png)
 
 # Detail requirements
-## High Level Requirements:
+## High Level Requirements
 
 |      ID          |Description                          |Status                         |
 |----------------|-------------------------------|-----------------------------|
@@ -72,7 +72,7 @@ Pass the eye image to the testing model which gives the result of both ME and RG
 
 
 
-##  Low level Requirements:
+##  Low level Requirements
 |      ID          |Description                          |  HLR_ID  |Status               |
 |----------------|-------------------------------|----------|-----------------------------|
 |SID_01|Classify lvl0|ID_01|Implemented|
