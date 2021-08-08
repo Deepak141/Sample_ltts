@@ -34,7 +34,6 @@ The pervious methods Used for Detecting Diabetic Retinopathy have achieved the M
 Our propsed method is to analysis could ease mass screening of the population with diabetes mellitus and help clinicians in utilizing their time more efficiently.
 
 # 4W and 1H
-
 ## Who
 
 This tool is a helping hand for Ophthalmologist in reducing their time for mass screening of the populations with DR.
