@@ -58,7 +58,7 @@ Pass the eye image to the testing model which gives the result of both ME and RG
 # SWOT Analysis
 ![swot](https://github.com/Deepak141/Sample_ltts/blob/main/1_Requirements/Screenshot%20(375).png)
 
-# Detail requirements
+## Detail requirements
 
 ## High Level Requirements
 
