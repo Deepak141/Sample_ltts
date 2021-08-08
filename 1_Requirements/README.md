@@ -6,10 +6,10 @@ Diabetic Retinopathy (DR), also known as diabetic eye disease, is a medical cond
 
 ## Research
 * Indian Diabetic Retinopathy Image Dataset (IDRiD): 
-   1 In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
-   2 It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
-   3 Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
-   4 [IDRid Paper](https://www.mdpi.com/2306-5729/3/3/25)
+   1  In this paper the authors explained about how they created the IDRiD (Indian Diabetic Retinopathy Image Dataset) the first database representative of an Indian population. 
+   2  It constitutes typical diabetic retinopathy lesions and normal retinal structures annotated at a pixel level. The dataset provides information on the disease severity of diabetic retinopathy, and diabetic macular edema for each image.
+   3  Dataset consist of 516 images which is splitted into train (413 images) and testing(103 images).
+   4  [IDRid Paper](https://www.mdpi.com/2306-5729/3/3/25)
 
  
 
